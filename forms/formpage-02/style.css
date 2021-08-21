@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-color: #9AC2C9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 60%;
+    margin: 1em auto;
+    background-color: #B9D8C2;
+    padding: 2.5em 5em;
+}
+
+.key{
+    text-align: right;
+    width: 50%;
+}
+
+.value{
+    text-align: left;
+    width: 50%;
+}
+
+#name{
+    margin: 1em 1em;
+}
+#email{
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+#number{
+    margin: 0.2em 1em;
+}
+#place{
+    margin: 1em 1em;
+}
+#timep{
+    margin-bottom: 5em;
+}
+.radio{
+    margin-left: 1em;
+}
+#evening{
+    margin-bottom: 3.5em;
+}
+.checkbox{
+    margin-left: 1em;
+}
+#emotionsp{
+    margin-bottom: 4em;
+}
+#describep{
+    margin-bottom: 0;
+    padding-top: 1em;
+}
+textarea{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+button{
+    margin-top: 4em;
+    padding: 1.5em 2em;
+    border-style: none;
+    border-radius: 1em;
+    color: white;
+    font-weight: 800;
+    background-color: #FFCB47;
+}
