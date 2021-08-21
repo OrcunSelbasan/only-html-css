@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form Page 02</title>
+  </head>
+  <body>
+    <h1>Good Vibes Form</h1>
+    <div class="container">
+        <div class="key">
+            <p>Name</p>
+            <p id="emailp">Email</p>
+            <p id="degreep">On a scale of 1-10, how good was it?</p>
+            <p id="placep">Where did it happen?</p>
+            <p id="timep">At what time of day did it happen?</p>
+            <p id="emotionsp">What emotions did you experience?
+                (Select all that apply)</p>
+            <p id="describep">Please describe your positive experience.</p>
+        </div>
+        <div class="value">
+            <form action=""></form>
+            <input type="text" name="" id="name" placeholder="Enter your name"> <br>
+            <input type="email" name="" id="email" placeholder="Enter your email"> <br>
+            <input type="number" name="" id="number" placeholder="Enter a number between 1 and 10" min="1" max="10" ><br>
+            <select name="" id="place">
+                <option value="home">At home</option>
+                <option value="commute">On my commute</option>
+                <option value="work">At the work</option>
+                <option value="street">On the street</option>
+                <option value="other">Other</option>
+            </select><br>
+            <input class="radio" type="radio" name="timeofday" id="">
+            <label for="">Morning</label><br>
+            <input class="radio" type="radio" name="timeofday" id="">
+            <label for="">Afternoon</label><br>
+            <input class="radio" type="radio" name="timeofday" id="evening">
+            <label for="">Evening</label><br>
+            <input class="checkbox" type="checkbox" name="" id="">
+            <label for="">Excited</label><br>
+            <input class="checkbox" type="checkbox" name="" id="">
+            <label for="">Humbled</label><br>
+            <input class="checkbox" type="checkbox" name="" id="">
+            <label for="">Elated</label><br>
+            <input class="checkbox" type="checkbox" name="" id="">
+            <label for="">Loved</label><br>
+            <input class="checkbox" type="checkbox">
+            <label for="">Enthusiastic</label><br>
+            <textarea name="" id="" cols="30" rows="10" style="resize: vertical;"></textarea>
+
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+  </body>
+</html>

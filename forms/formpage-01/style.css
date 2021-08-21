@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #66999B;
+}
+
+.body-form{
+    padding: 1em 2em;
+    color: #fff;
+    width: 80%;
+    margin: 1em auto;
+    border: 5px solid #496A81;
+    border-radius: 1em;
+}
+
+.body-form h2{
+    text-align: center;
+    color: #fff;
+}
+
+form{
+    margin: 2em 1em;
+}
+
+fieldset{
+    background-color: #496A81;
+}
+
+label{
+    margin-right: 0.5em;
+}
+
+textarea{
+    resize: vertical;
+}
+
+label, input{
+    margin: 0.5em 0;
+}
+
+.btn{
+    background-color: #B3AF8F;
+    border-style: none;
+    padding: 1em 2em;
+    color: #496A81;
+}
+
+.sub{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
