@@ -1,0 +1,62 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/17/14/48/sea-6553205_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+p{
+    font-weight: bold;
+}
+span{
+    font-weight: 500;
+}
+
+.thanks{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.container{
+    width: 70%;
+    margin: 3em auto;
+    background-color: rgba(182, 163, 158, 0.5);
+    padding: 2em;
+    text-align: left;
+}
+
+#name, #email, #age{
+    width: 98%;
+    padding: 0.5em 0.5em;
+    border-style: none;
+    border-radius: 0.5em;
+}
+
+#feature, #role{
+    width: 100%;
+    padding: 0.5em 0.5em;
+    border-style: none;
+    border-radius: 0.5em;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 0.2em;
+    padding: 0.5em;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(221, 224, 189);
+    padding: 1em 0;
+    margin: 2em 0 ;
+    border-style: none;
+    border-radius: .5em;
+    color: rgb(58, 58, 58);
+    font-size: 20px;
+    font-weight: bold;
+}

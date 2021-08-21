@@ -10,6 +10,7 @@ body{
     margin: 1em auto;
     background-color: #B9D8C2;
     padding: 2.5em 5em;
+    border-radius: 1em;
 }
 
 .key{
