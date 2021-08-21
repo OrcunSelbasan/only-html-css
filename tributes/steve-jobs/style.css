@@ -1,0 +1,74 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-quote {
+  font-family: "Pinyon Script", cursive;
+  font-size: 32px;
+  text-align: center;
+  background-color: #cdcdcd;
+  margin: 0;
+}
+
+.header-quote h3{
+    margin: 0;
+    padding: 1em;
+}
+
+.body-main{
+    width: 80%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-main h2{
+    text-align: center;
+}
+
+.timeline{
+    width: 70%;
+}
+
+.nutshell{
+    height: 80%;
+    margin: auto auto;
+    text-align: center;
+}
+
+.timeline td{
+ border-top: 2px solid black;
+ margin: 0px;
+}
+
+.nutshell-second-col{
+    border-bottom: 2px solid black;
+}
+
+.event{
+    background-color: rgb(214, 214, 214);
+    padding: 0;
+}
+
+.footer-quote{
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    border-radius: 0.5em;
+}
+
+@media screen and (max-width: 1080px) {
+    .body-main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .timeline{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
