@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(165, 165, 165);
+  color: azure;
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  margin: 5em auto;
+  background-color: rgb(116, 116, 116);
+  border-radius: 4px;
+}
+
+.header {
+  text-align: center;
+  padding: 2em 4em;
+}
+
+.header p {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  text-align: left;
+  padding: 1em;
+}
+
+.image {
+  text-align: center;
+  padding: 2em 4em;
+}
+
+.image p {
+  width: 99%;
+  margin: 0.25em auto;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.image-container {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 2em;
+  border-radius: 50px;
+}
+
+.time-line{
+    padding: 2em 4em;
+}
+
+.time-line p{
+    text-align: center;
+}
