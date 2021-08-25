@@ -1,0 +1,30 @@
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: rgb(34, 112, 202);
+}
+
+.nav-item{
+    width: min-content;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-col-1{
+        text-align: center;
+    }
+    .nav-col-2 p, ul{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
