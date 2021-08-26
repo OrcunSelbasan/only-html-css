@@ -1,30 +1,68 @@
-.nav-link{
-    color: #fff;
+.nav-link {
+  color: #fff;
 }
-.nav-link:hover{
-    color: rgb(34, 112, 202);
+.nav-link:hover {
+  color: rgb(34, 112, 202);
 }
 
-.nav-item{
-    width: min-content;
+.nav-item {
+  width: min-content;
 }
 
 @media screen and (max-width: 768px) {
-    .nav-col-1{
-        text-align: center;
-    }
-    .nav-col-2 p, ul{
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-    }
+  .nav-col-1 {
+    text-align: center;
+  }
+  .nav-col-2 p,
+  ul {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 770px) {
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* SPEAKERS PAGE */
+
+.speakers-hero {
+    background: rgb(73,184,250);
+    background: -moz-linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49b8fa",endColorstr="#ffffff",GradientType=1);
+}
+
+.line{
+    background: rgb(73,184,250);
+    background: -moz-radial-gradient(circle, rgba(73,184,250,1) 35%, rgba(255,255,255,0) 100%);
+    background: -webkit-radial-gradient(circle, rgba(73,184,250,1) 35%, rgba(255,255,255,0) 100%);
+    background: radial-gradient(circle, rgba(73,184,250,1) 35%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49b8fa",endColorstr="#ffffff",GradientType=1);
+}
+
+@media screen and (max-width: 980px) {
+    .speakers-row, .r-r{
+        align-items: center;
         text-align: center;
+    }
+
+    .speakers-row{
+        flex-direction: column;
+    }
+
+    .speakers-row > div{
+        width: 80%;
+    }
+
+    .r-r{
+        flex-direction: column-reverse;
     }
 }
