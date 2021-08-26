@@ -30,15 +30,17 @@
   }
 }
 
-/* SPEAKERS PAGE */
 
-.speakers-hero {
+
+.speakers-hero, .schedule-hero {
     background: rgb(73,184,250);
     background: -moz-linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
     background: -webkit-linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
     background: linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49b8fa",endColorstr="#ffffff",GradientType=1);
 }
+
+/* SPEAKERS PAGE */
 
 .line{
     background: rgb(73,184,250);
