@@ -32,7 +32,7 @@
 
 
 
-.speakers-hero, .schedule-hero {
+.speakers-hero, .schedule-hero , .venue-hero{
     background: rgb(73,184,250);
     background: -moz-linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
     background: -webkit-linear-gradient(90deg, rgba(73,184,250,1) 0%, rgba(255,255,255,0) 100%);
